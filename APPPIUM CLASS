@@ -1,0 +1,40 @@
+APPPIUM CLASS
+
+it is just one of the libraries
+there are similar tools like espresso.
+apium can automate both android and ios applications
+
+
+- built on selenium
+
+How to test mobile applications ?
+
+- open source so it is free
+- it is universal so you can automate both andriod and IOS applications using same libraries
+- most android app are being coded in java
+- Apium Desktop
+
+ 	WE NEED THIS 3 IN ORDER TO TEST OUR MOBILE APP
+
+1-java code(client code)
+2-server(appium server)
+3-android device(emulator/virtual device/physical device)
+
+****in order to comnect android devide from server we need Desired Capabilities
+
+
+
+.apk is an extention for android applications
+
+LOCATORS
+
+xpath
+id- the android used 'resource-id' as id in selenium
+accessibility id - mobile spesific locator
+css - is deprecated by appium(not sported)
+AndroidUIAutomator - "attributeName(\"attributeValue\")"
+
+
+SCROLLING
+
+"new UiScrollable(new UiSelector()).scrollIntoView(attributeName(\"attributeValue\"));"
